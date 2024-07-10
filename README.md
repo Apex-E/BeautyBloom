@@ -4,11 +4,17 @@ Welcome to the official repository for Beauty Bloom, an elegant and user-friendl
 
 # Features:
 Homepage: A stunning hero section introducing Beauty Bloom with a call to action.
+
 Featured Products: Showcase of top products with detailed descriptions.
+
 About Us: Information about the mission, story, and values of Beauty Bloom.
+
 Client Reviews: Automatic slider displaying customer reviews and ratings.
+
 Get in Touch: Contact form for customer inquiries and feedback.
+
 Footer: Concise information about Beauty Bloom and copyright details.
+
 # Technologies Used:
 HTML5
 CSS3
