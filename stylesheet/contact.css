@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container {
+    background-color: rgba(254, 244, 236, 1);
+  
+  }
+  
+  /* header section start from here */
+  
+  
+  
+  .header_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+  
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  .logo {
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+  
+  .icons_part {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .icons_part a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+  }
+  
+  .get-in-touch {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.get-in-touch h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.get-in-touch p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.get-in-touch form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-in-touch label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.get-in-touch input,
+.get-in-touch textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.get-in-touch button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-in-touch button:hover {
+    background-color: #555;
+}
+
+  /* footer_section style start form here  */
+  
+  .footer_section{
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    
+  }
+  .part1{
+    padding: 0 100px;
+    display: flex;
+    gap: 50px;
+  
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row1{
+    width: 30%;
+  }
+  .row1 i{
+    color: white;
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  
+  .row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+  }
+  
+  .row3{
+    width: 35%;
+  }
+  .part2{
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .part2 i{
+    font-size: 2.5rem;
+    
+  }
+  .part2 i:hover{
+    
+    transform: scale(1.1,1.1);
+  }
+  .part3{
+    padding:10px 50px;
+    border-top: 2px solid wheat;
+    text-align: center;
+  }
+  

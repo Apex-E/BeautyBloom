@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container {
+    background-color: rgba(254, 244, 236, 1);
+  
+  }
+  
+  /* header section start from here */
+  
+  
+  
+  .header_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+  
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  .logo {
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+  
+  .icons_part {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .icons_part a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+  }
+  
+  
+  
+  /* product section style start form here  */
+  
+  .products_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+  }
+  .products_section h1{
+    padding-top: 20px;
+  }
+  .products_section p{
+    font-size: medium;
+    padding: 0 200px;
+  }
+  .production_display{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .product_card{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .product_card:hover{
+    
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+  }
+  
+  .product_card h3{
+    text-align: center;
+    padding: 5px;
+  }
+  .product_card p{
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+  }
+  .product_card img{
+    padding: 20px 10px;
+  width: 200px;
+  height: 250px;
+  }
+  .action_part{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+  }
+  .left_part{
+    display: flex;
+    gap: 5px;
+  }
+  .left_part button{
+    font-size: 0.7rem;
+  padding:10px 5px ;
+  background-color: white;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+  }
+  .left_part button:hover{
+    background-color: rgba(254, 244, 236, 1);
+    border: 0;
+    
+    box-shadow:3px 3px 3px #d4d3d3;
+  }
+  .product_button button{
+    font-size: 1rem;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: 0 ;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .product_button button:hover{
+    background-color: rgba(254, 244, 236, 1);
+    border: 0;
+    color: #000;
+    box-shadow:3px 3px 3px #ababab;
+  }
+
+  /* footer_section style start form here  */
+  
+  .footer_section{
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    
+  }
+  .part1{
+    padding: 0 100px;
+    display: flex;
+    gap: 50px;
+  
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row1{
+    width: 30%;
+  }
+  .row1 i{
+    color: white;
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  
+  .row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+  }
+  
+  .row3{
+    width: 35%;
+  }
+  .part2{
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .part2 i{
+    font-size: 2.5rem;
+    
+  }
+  .part2 i:hover{
+    
+    transform: scale(1.1,1.1);
+  }
+  .part3{
+    padding:10px 50px;
+    border-top: 2px solid wheat;
+    text-align: center;
+  }
+  
