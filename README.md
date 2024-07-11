@@ -19,7 +19,7 @@ Footer: Concise information about Beauty Bloom and copyright details.
 HTML5
 CSS3
 JavaScript
-Responsive Design
+
 # How to Use:
 Clone the repository: git clone https://github.com/yourusername/BeautyBloom.git
 Navigate to the project directory: cd BeautyBloom
